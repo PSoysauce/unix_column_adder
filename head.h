@@ -14,7 +14,7 @@
   #ifndef head_h 
   #define head_h
 
-  extern map<int, string> m;
+  extern map<int, string> tclap_map;
   enum par{column_number, file_name};
   bool tclap(int, char**);
 
