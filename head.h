@@ -9,6 +9,7 @@
   #include <map>
   #include <string>
   #include <iostream>
+  #include <fstream>
   using namespace std;
 
   #ifndef head_h 
@@ -17,6 +18,6 @@
   extern map<int, string> tclap_map;
   enum par{column_number, file_name};
   bool tclap(int, char**);
-
+  int column_addition();
   #endif
 
