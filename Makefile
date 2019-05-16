@@ -12,7 +12,7 @@ CXXFLAGS = -Wall -Werror
 CPPFLAGS = -I ~/tclap-1.2.1/include
 PROJECTNAME = CS3377.column_adder
 EXECFILE = column_adder
-OBJS = main.o tclap.o
+OBJS = main.o tclap.o column_addition.o
 
 .PHONY: clean all backup
 
