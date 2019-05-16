@@ -6,13 +6,11 @@
  *
  */
  
-
- #include <iostream>
  #include "head.h"
- using namespace std;
 
  int main(int argc, char** argv) {
-    cout << "Hello" << endl;
     tclap(argc, argv);
+    int sum = column_addition();
+    cout << sum << endl;
     return 0;
  }
