@@ -10,8 +10,8 @@
 CXX = g++
 CXXFLAGS = -Wall -Werror
 CPPFLAGS = -I ~/tclap-1.2.1/include
-PROJECTNAME = CS3377.HW5
-EXECFILE = cs3377dirmond
+PROJECTNAME = CS3377.column_adder
+EXECFILE = column_adder
 OBJS = main.o tclap.o
 
 .PHONY: clean all backup
